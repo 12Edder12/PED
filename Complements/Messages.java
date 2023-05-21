@@ -8,6 +8,11 @@ public class Messages {
         System.out.println("Bienvenido al sistema de compras");
     }
 
+// P0a finalizar el programa
+public static void despedida() {
+    System.out.print("Ingresa tu nombre por favor: b ");
+}
+
     public static void requestName() {
         System.out.print("Ingresa tu nombre por favor: ");
     }
