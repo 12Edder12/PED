@@ -5,6 +5,7 @@ public class main {
         String soyGay = "El henry es muy gay porque no le sabe al git";
         System.out.println("Edder eres mi dios");
         System.out.println(soyGay);
+        System.out.println("Henry chupala");
     }
     
 }
