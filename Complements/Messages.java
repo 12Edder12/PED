@@ -27,22 +27,34 @@ public class Messages {
 // Persona
     //sirve para pedir el nombre
     public static void requestName() {
-        System.out.print("Ingresa tu nombre por favor: a ");
+        System.out.print("Ingresa tu nombre por favor:  ");
     }
 
+    public static void requestSurname() {
+        System.out.print("Ingresa tu apellido por favor:  ");
+    }
     //sirve para pedir el id
     public static void requestId() {
         System.out.print("Ingresa su Id: ");
     }
 
+    //Un por si acaso se uso el tipo e Id
+    public static void typeId(int i) {
+        System.out.print("Eliga que documento desea ingresar los datos.\n1.Cedula\n2.Pasaporte");
+    }
+
+    public static void confirmationTypeId(int i) {
+        System.out.print("Ha elegido");
+    }
+
     //sirve para pedir el telefono
     public static void requestPhone() {
-        System.out.print("Ingresa su numero de teléfono: ");
+        System.out.print("Ingresa su numero de telefono: ");
     }
 
     //sirve pa pedir la direccion
     public static void requestAddress() {
-        System.out.print("Ingresa su dirección: ");
+        System.out.print("Ingresa su direccion: ");
     }
 
     //sirve para pedir el correo
@@ -57,7 +69,8 @@ public class Messages {
         System.out.println("Ups algo ha salido mal!");
     }
 
-
+/////////////////////////////////////////////////
+//Productos 
     public static void updateProductOptions() {
         System.out.print("1.Nombre \n 2.Precio Unitario \n Ingresa tu opcion: ");
     }
@@ -75,4 +88,5 @@ public class Messages {
     }
 
    //Adicionales
+
 }
