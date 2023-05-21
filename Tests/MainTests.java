@@ -8,5 +8,8 @@ public class MainTests {
         System.out.println("Una plueba mas uwu");
         System.out.println("Esto es una prueba del proceso que les enseñe mmvrgs");
         System.out.println("Prueba para ver si vale esta verga");
+        System.out.println("SEXO");
+        System.out.println("prueba 2 ");
+        System.out.println("prueba 3 ");
     }
 }
