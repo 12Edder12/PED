@@ -5,7 +5,7 @@ public class Messages {
     // utilizados la mayoria de veces por la clase Scanner
 
 /////////////////////////////////////////////////
-    //Saludos
+    //Principales
     // Bienvenido al sistema
     public static void welcomeMessage(){
         System.out.println("Bienvenido al sistema de compras");
@@ -115,7 +115,7 @@ public static void productAdded() {
     System.out.print("ingrese el IVA del product: ");
     }
 /////////////////////////////////////////////////
-//Adicionales
+//Extras
 
 
 
