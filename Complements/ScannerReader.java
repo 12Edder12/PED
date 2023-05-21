@@ -11,4 +11,19 @@ public class ScannerReader {
         Messages.requestName();
         return SC.nextLine();
     }
+
+    public static int readUpdateProductOption() {
+        Messages.updateProductOptions();
+        return SC.nextInt();
+    }
+
+    public static String readProductName() {
+        Messages.requestProductName();
+        return SC.nextLine();
+    }
+
+    public static double readProductPriceByUnit() {
+        Messages.requestProductPriceByUnit();
+        return SC.nextDouble();
+    }
 }
