@@ -15,16 +15,13 @@ public class Messages {
     public static void farewellMessage(){
         System.out.println("Tenga un buen dia hasta la proxima");
     }
-/////////////////////////////////////////////////
-
-//Producto
-    //sirve para añadir un producto 
-    public static void productAdded() {
-            System.out.println("Producto agregado");
-        }
 
 /////////////////////////////////////////////////
 // Persona
+    public static void updateProductClient() {
+    System.out.print("1.Registar Cliente \n 2.Modificar Cliente \n4.Borrar Cliente \nIngresa tu opcion: ");
+    }
+
     //sirve para pedir el nombre
     public static void requestName() {
         System.out.print("Ingresa tu nombre por favor:  ");
@@ -40,7 +37,7 @@ public class Messages {
 
     //Un por si acaso se uso el tipo e Id
     public static void typeId(int i) {
-        System.out.print("Eliga que documento desea ingresar los datos.\n1.Cedula\n2.Pasaporte");
+        System.out.print("Eliga que documento desea ingresar los datos.\n1.Cedula\n2.RUC\nIngresa tu opcion:");
     }
 
     public static void confirmationTypeId(int i) {
@@ -62,6 +59,18 @@ public class Messages {
         System.out.print("Ingresa su correo: ");
     }
 
+    public static void registerCliente() {
+        System.out.print("Ha registrado al cliente");
+    }
+
+    public static void eliminateCliente() {
+        System.out.print("Ha eliminado al cliente");
+    }
+
+    public static void modificateCliente() {
+        System.out.print("Ha eliminado al cliente");
+    }
+
 /////////////////////////////////////////////////
 //Errores
     //mensaje general de error
@@ -69,24 +78,76 @@ public class Messages {
         System.out.println("Ups algo ha salido mal!");
     }
 
-/////////////////////////////////////////////////
-//Productos 
-    public static void updateProductOptions() {
-        System.out.print("1.Nombre \n 2.Precio Unitario \n Ingresa tu opcion: ");
-    }
-
-    public static void requestProductName() {
-        System.out.print("Ingresa el nombre del producto: ");
-    }
-
-    public static void requestProductPriceByUnit() {
-        System.out.print("Ingresa el precio del producto: ");
-    }
-
     public static void switchDefaultMessage() {
         System.out.println("La opcion ingresada no es valida");
     }
 
-   //Adicionales
+
+/////////////////////////////////////////////////
+//Productos 
+//Producto agregado 
+public static void productAdded() {
+    System.out.println("Producto agregado");
+}
+
+//Opciones de productos
+    public static void updateProductOptions() {
+        System.out.print("1.Nombre \n2.Precio Unitario \nIngresa tu opcion: ");
+    }
+//Nombre producto
+    public static void requestProductName() {
+        System.out.print("Ingresa el nombre del producto: ");
+    }
+//Id producto
+    public static void prodcutId() {
+        System.out.print("Ingresa su Id: ");
+    }
+//Precio producto
+    public static void requestProductPriceByUnit() {
+        System.out.print("Ingresa el precio del producto: ");
+    }
+//Unidad de medida
+    public static void requestProductUnit() {
+        System.out.print("Ingresa la unidad de medida: ");
+    }
+ //IVA
+    public static void IVAproduct() {
+    System.out.print("ingrese el IVA del product: ");
+    }
+/////////////////////////////////////////////////
+//Adicionales
+
+
+
+/////////////////////////////////////////////////
+// Servicios
+//Opciones de servicios
+public static void updateServiceOptions() {
+    System.out.print("1.Nombre \n2.Precio Unitario \nIngresa tu opcion: ");
+}
+
+//Nombre servicio
+public static void nameService() {
+    System.out.print("Escriba el nombre servicio: ");
+}
+
+//Precio servicio 
+public static void priceService() {
+    System.out.print("Escriba el valor del servicio: ");
+}
+
+public static void registerService() {
+    System.out.print("Ha registrado un servicio: ");
+}
+
+public static void eliminateService() {
+    System.out.print("Ha eliminado un servicio: ");
+}
+
+public static void modificateService() {
+    System.out.print("Ha eliminado un servicio: ");
+}
+
+/////////////////////////////////////////////////
 
 }
